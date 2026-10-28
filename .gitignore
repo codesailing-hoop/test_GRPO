@@ -1,0 +1,35 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+*.egg-info/
+.ipynb_checkpoints/
+.DS_Store
+
+# Credentials and local settings
+.env
+.env.*
+*.pem
+*.key
+.ssh/
+.huggingface/
+secrets/
+*.local.*
+
+# Downloaded data, weights, checkpoints, raw logs
+/data/
+/models/
+/outputs/
+/logs/
+/wandb/
+/runs/
+checkpoint-*/
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.parquet
+*.arrow
